@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <div>
+        <form action="backend.js">
+            <input type="text" placeholder="Enter your Name"><br>
+            <label for="sectionIDa"><input type="radio" placeholder="Section" name="section" value="Section A" id="sectionIDa"> A</label>
+            <label for="sectionIDb"><input type="radio" placeholder="Section" name= "section" value="Section B" id="sectionIDb"> B</label>
+            <input type="checkbox" name="Want Food Canteen cart" id="foodcanteen">
+        </form>
+    </div>
+</body>
+
+</html>
